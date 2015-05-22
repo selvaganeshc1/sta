@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+	 
+	<sqlMap resource="sqlmaps/ups.xml"/>
+	<sqlMap resource="sqlmaps/Pickup.xml"/>
+	<sqlMap resource="sqlmaps/Products.xml"/>
+	<sqlMap resource="sqlmaps/LoggedEvent.xml"/>
+	<sqlMap resource="sqlmaps/PackageTypes.xml"/>
+	<sqlMap resource="sqlmaps/Warehouse.xml"/>
+	<sqlMap resource="sqlmaps/BusinessFilter.xml"/>
+
+	<!-- sqlMap resource="sqlmaps/SampleUserExtension.xml"/ -->
+	<!--Developers should add their definitions in the following section.-->
+	
+</sqlMapConfig>

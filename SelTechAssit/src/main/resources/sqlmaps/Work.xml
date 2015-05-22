@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+ 
+<sqlMap namespace="dhl">
+
+	<resultMap id="dhlZoneMap" class="com.meritconinc.shiplinx.carrier.dhl.model.DHLZone">
+		<result property="zoneCode"	column="zone_code"/>	
+		<result property="countryCode"	column="country_code"/>
+		<result property="countryName"	column="country_name"/>
+		<result property="weightUnit"	column="weight_unit"/>
+		<result property="dimUnit"	column="dim_unit"/>
+		<result property="region"	column="region"/>
+	</resultMap>
+
+ 
+	
+</sqlMap>
+
